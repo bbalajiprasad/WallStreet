@@ -1,0 +1,23 @@
+/* tables */
+table.tablesorter {
+	font: 85% "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", sans-serif;padding: 0; margin: 0; border-collapse: collapse; color: #333; background: #F3F5F7;
+}
+
+table.tablesorter thead tr th{
+	background: #3A4856; padding: 15px 10px; color: #fff; text-align: center; font-weight: normal;
+}
+table.tablesorter tbody td, table.tablesorter tbody th{
+	padding: 5px; background: url("td_back.gif") repeat-x; text-align: center; min-width: 100px;
+}
+table.tablesorter tbody, table.tablesorter thead{
+	border-left: 1px solid #EAECEE; border-right: 1px solid #EAECEE;
+}
+table.tablesorter tbody{
+	border-bottom: 1px solid #EAECEE;
+}
+table.tablesorter tbody tr{
+	background: #F3F5F7;
+}
+table.tablesorter tbody tr:hover{
+	background: #EAECEE; color: #111;
+}

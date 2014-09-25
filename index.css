@@ -1,0 +1,26 @@
+body{
+    background:url('white_wall_hash.png') ;
+    padding:0px;
+    margin: 0px;
+    font-family: 'Arimo', sans-serif;
+}
+#main{
+    position: relative;
+    min-height: 100%;
+    overflow: auto;
+}
+
+#topimg{
+    position: relative;
+    overflow: auto;
+    width: 710px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+#notify
+{
+    font-family: sans-serif;
+    padding-top: 15px;;
+}

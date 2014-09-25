@@ -1,0 +1,20 @@
+#myTable {font: 85% "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", sans-serif;padding: 0; margin: 0; border-collapse: collapse; color: #333; background: #F3F5F7;}
+
+/*table a {color: #3A4856; text-decoration: none; border-bottom: 1px solid #C6C8CB;}
+
+table a:hover {color: #000;}  
+
+table caption {text-align: left; text-transform: uppercase;  padding-bottom: 10px; font: 200% "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", sans-serif;}
+*/
+
+#myTable thead th {background: #3A4856; padding: 15px 10px; color: #fff; text-align: center; font-weight: normal;}
+
+#myTable tbody, table thead {border-left: 1px solid #EAECEE; border-right: 1px solid #EAECEE;} //
+
+#myTable tbody {border-bottom: 1px solid #EAECEE;} //
+
+#myTable tbody td, table tbody th {padding: 5px; background: url("td_back.gif") repeat-x; text-align: center; min-width: 100px;}
+
+#myTable tbody tr {background: #F3F5F7;}
+
+#myTable tbody  tr:hover {background: #EAECEE; color: #111;}
